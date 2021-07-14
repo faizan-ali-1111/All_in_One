@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.faizanali.allinone.Welcome"
+    android:background="@drawable/a12">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/l1" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="media player"
+        android:id="@+id/button5"
+        android:typeface="serif"
+        android:textSize="11dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/rounded_corners"
+        android:layout_toStartOf="@+id/button10"
+        android:textStyle="bold"
+        android:textColor="#f91e1e" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="flashlight"
+        android:id="@+id/button6"
+        android:typeface="serif"
+        android:textSize="13dp"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rounded_corners"
+        android:layout_toEndOf="@+id/button10"
+        android:textStyle="bold"
+        android:textColor="#f91e1e" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="camera"
+        android:id="@+id/button7"
+        android:typeface="serif"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/button10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/rounded_corners"
+        android:textStyle="bold"
+        android:textColor="#f91e1e" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calculator"
+        android:id="@+id/button8"
+        android:typeface="serif"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/button7"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:background="@drawable/rounded_corners"
+        android:layout_toRightOf="@+id/button10"
+        android:layout_toEndOf="@+id/button10"
+        android:textStyle="bold"
+        android:textColor="#f91e1e" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:id="@+id/button9"
+        android:typeface="serif"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button10"
+        android:layout_alignEnd="@+id/button10"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10"
+        android:background="@drawable/rounded_corners"
+        android:textStyle="bold"
+        android:textColor="#f91e1e" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="special functions"
+        android:id="@+id/button10"
+        android:typeface="serif"
+        android:textSize="14dp"
+        android:background="@drawable/rounded_corners"
+        android:textStyle="bold"
+        android:textColor="#f91e1e"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
